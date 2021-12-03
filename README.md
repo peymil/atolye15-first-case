@@ -24,3 +24,9 @@ yarn test
 ```bash
 yarn format
 ```
+
+## Build the code
+
+```bash
+yarn build
+```
