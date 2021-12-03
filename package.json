@@ -3,7 +3,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "lint:tsc": "tsc",
+    "lint:tsc": "tsc --noEmit",
+    "build": "tsc",
     "lint:eslint": "eslint 'src/**/*.ts'",
     "lint": "yarn lint:tsc && yarn lint:eslint",
     "format": "prettier --write 'src/**/*.ts' && yarn lint:eslint --fix"
